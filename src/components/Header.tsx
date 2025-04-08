@@ -49,12 +49,14 @@ export default function Header() {
             className='flex items-center gap-2 hover:bg-gray-100 px-4 py-2 rounded-full transition-all relative group'
           >
             <ShoppingCartIcon className='w-5 h-5 text-gray-700 group-hover:text-blue-600 transition-colors' />
-            <span
-              className='absolute -top-1 -right-1 bg-blue-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center opacity-0 transition-opacity duration-150'
-              style={{ opacity: mounted && cartItemCount > 0 ? 1 : 0 }}
-            >
-              {cartItemCount}
-            </span>
+            {mounted && (
+              <span
+                className='absolute -top-1 -right-1 bg-blue-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center transition-opacity duration-150'
+                style={{ opacity: cartItemCount > 0 ? 1 : 0 }}
+              >
+                {cartItemCount}
+              </span>
+            )}
             <span className='hidden md:inline text-gray-700 group-hover:text-blue-600 transition-colors'>
               Cart
             </span>

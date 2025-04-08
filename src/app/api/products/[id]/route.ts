@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import productsData from '@/data/products.json';
 
-export async function GET(
-  request: NextRequest,
-  { params }: { params: { id: string } }
-) {
-  const { id } = await Promise.resolve(params);
+export async function GET(request: NextRequest) {
+  const url = new URL(request.url);
+  const segments = url.pathname.split('/');
+  const id = segments[segments.length - 1];
 
   const product = productsData.find((product) => product.id === id);
 
