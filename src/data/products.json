@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone",
+    "description": "HuluLulu Premium smartphone with latest features",
+    "price": 599.99,
+    "category": "electronics",
+    "image": "/images/smartphone.png",
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "name": "HuluLulu Prime Laptop",
+    "description": "HuluLulu's ultrabook with 14-inch 4K touchscreen and 12-hour battery life",
+    "price": 1299.99,
+    "category": "electronics",
+    "image": "/images/laptop.png",
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "name": "HuluLulu Smartwatch",
+    "description": "HuluLulu's health-focused smartwatch with ECG and blood oxygen monitoring",
+    "price": 249.99,
+    "category": "electronics",
+    "image": "/images/watch.png",
+    "inStock": false
+  },
+  {
+    "id": "4",
+    "name": "Wireless Earbuds",
+    "description": "Premium wireless earbuds with noise cancellation",
+    "price": 149.99,
+    "category": "audio",
+    "image": "/images/earbuds.png",
+    "inStock": true
+  },
+  {
+    "id": "5",
+    "name": "Tablet Pro",
+    "description": "10-inch tablet with stylus support and 256GB storage",
+    "price": 499.99,
+    "category": "electronics",
+    "image": "/images/tablet.png",
+    "inStock": true
+  },
+  {
+    "id": "6",
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with 360° sound and 12-hour battery",
+    "price": 79.99,
+    "category": "audio",
+    "image": "/images/speaker.png",
+    "inStock": true
+  },
+  {
+    "id": "7",
+    "name": "Gaming Mouse",
+    "description": "High-precision gaming mouse with customizable RGB",
+    "price": 59.99,
+    "category": "accessories",
+    "image": "/images/mouse.png",
+    "inStock": true
+  },
+  {
+    "id": "8",
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with Cherry MX switches",
+    "price": 129.99,
+    "category": "accessories",
+    "image": "/images/keyboard.png",
+    "inStock": false
+  },
+  {
+    "id": "9",
+    "name": "Smart Home Hub",
+    "description": "Central control for all your smart home devices",
+    "price": 199.99,
+    "category": "smart-home",
+    "image": "/images/hub.png",
+    "inStock": true
+  },
+  {
+    "id": "10",
+    "name": "Smart Light Bulbs (Pack of 3)",
+    "description": "Color-changing LED bulbs with app control",
+    "price": 49.99,
+    "category": "smart-home",
+    "image": "/images/bulbs.png",
+    "inStock": true
+  },
+  {
+    "id": "11",
+    "name": "Smart Thermostat",
+    "description": "Energy-saving thermostat with learning capabilities",
+    "price": 249.99,
+    "category": "smart-home",
+    "image": "/images/thermostat.png",
+    "inStock": true
+  },
+  {
+    "id": "12",
+    "name": "Wireless Charging Pad",
+    "description": "Fast wireless charging for all compatible devices",
+    "price": 39.99,
+    "category": "accessories",
+    "image": "/images/charger.png",
+    "inStock": true
+  },
+  {
+    "id": "13",
+    "name": "Gaming Headset",
+    "description": "7.1 surround sound gaming headset with noise-canceling mic",
+    "price": 89.99,
+    "category": "audio",
+    "image": "/images/headset.png",
+    "inStock": true
+  },
+  {
+    "id": "14",
+    "name": "Smart Doorbell",
+    "description": "Video doorbell with motion detection and two-way audio",
+    "price": 179.99,
+    "category": "smart-home",
+    "image": "/images/doorbell.png",
+    "inStock": false
+  },
+  {
+    "id": "15",
+    "name": "Smart Security Camera",
+    "description": "1080p security camera with night vision and cloud storage",
+    "price": 129.99,
+    "category": "smart-home",
+    "image": "/images/camera.png",
+    "inStock": true
+  },
+  {
+    "id": "16",
+    "name": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support and headrest",
+    "price": 299.99,
+    "category": "furniture",
+    "image": "/images/chair.png",
+    "inStock": true
+  },
+  {
+    "id": "17",
+    "name": "Desk Lamp",
+    "description": "Adjustable LED desk lamp with multiple brightness levels",
+    "price": 49.99,
+    "category": "furniture",
+    "image": "/images/lamp.png",
+    "inStock": true
+  },
+  {
+    "id": "18",
+    "name": "Standing Desk",
+    "description": "Electric height-adjustable standing desk with memory presets",
+    "price": 499.99,
+    "category": "furniture",
+    "image": "/images/desk.png",
+    "inStock": false
+  },
+  {
+    "id": "19",
+    "name": "Smart Refrigerator",
+    "description": "French door refrigerator with touchscreen and WiFi connectivity",
+    "price": 1299.99,
+    "category": "appliances",
+    "image": "/images/fridge.png",
+    "inStock": true
+  },
+  {
+    "id": "20",
+    "name": "Robot Vacuum",
+    "description": "Smart robot vacuum with mapping technology and app control",
+    "price": 299.99,
+    "category": "appliances",
+    "image": "/images/vacuum.png",
+    "inStock": true
+  }
+] 
