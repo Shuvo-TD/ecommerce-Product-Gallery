@@ -5,7 +5,7 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const id = params.id;
+  const { id } = await Promise.resolve(params);
 
   const product = productsData.find((product) => product.id === id);
 
